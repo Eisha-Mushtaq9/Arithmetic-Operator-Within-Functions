@@ -1,0 +1,58 @@
+# Arithmetic operator within function
+
+a = 22
+b = 10
+
+#addition using arithmetic operation within function
+def add(a, b):
+    return a + b
+
+print("Addition:", add(a, b))
+
+#multiply using arithmetic operation within function
+def multiply(a,b):
+    return a * b
+
+print("Multiplication:", multiply(a, b))
+
+#divide using arithmetic operation within function
+def divide(a,b):
+    return a/b
+
+print ("Division:" , divide(a,b))
+
+#subtraction using arithmetic operation within function
+def subtraction(a,b):
+    return a - b
+
+print("Subtraction:", subtraction(a,b))
+
+#floor division(a is divided by b, and the quotient is rounded down to the nearest integer.) using arithmetic operation within function
+def floor_division(a,b):
+    return a//b
+
+print("Floor Division:", floor_division(a,b))
+
+#modulus(a divide by b)using arithmetic operation within function
+def modulus(a,b):
+    return a%b
+
+print("modulus:", modulus(a,b))
+
+#Exponentiation  using arithmetic operation within function (power)
+def exponentiation(a,b):
+    return a**b
+
+print("exponentiation:", exponentiation(a,b))
+
+#percentage
+def calculating_percentage(a,b):
+    return a/b*100
+
+print("Calculating percentage:", calculating_percentage(a,b))
+
+#average
+
+def average(a,b):
+    return (a+b)/2
+print("Average:", average(a,b))
